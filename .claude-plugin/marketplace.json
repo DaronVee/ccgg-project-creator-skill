@@ -1,0 +1,26 @@
+{
+  "name": "ccgg-project-creator-skill",
+  "owner": {
+    "name": "Daron Vener",
+    "email": "daron@ccgg.ai"
+  },
+  "metadata": {
+    "description": "Professional project creation and management skill for CCGG Business Operations",
+    "version": "1.0.0",
+    "homepage": "https://github.com/DaronVee/ccgg-project-creator-skill",
+    "repository": "https://github.com/DaronVee/ccgg-project-creator-skill",
+    "keywords": ["project-management", "business-operations", "ccgg", "productivity"],
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "project-creator",
+      "description": "Creates and manages CCGG Business Operations projects with templates, CLAUDE.md generation, and Active Projects Index integration",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./project-creator"
+      ]
+    }
+  ]
+}
